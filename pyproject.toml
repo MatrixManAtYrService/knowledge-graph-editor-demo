@@ -1,0 +1,12 @@
+[project]
+name = "kge-demo"
+version = "0.1.0"
+description = "A demo graph for knowledge-graph-editor: the data lives here, the tool comes from GitHub"
+requires-python = ">=3.12"
+dependencies = ["kge"]
+
+[tool.uv.sources]
+# For development against a local checkout, use the path source; swap back to
+# the git source for the standalone demo.
+kge = { path = "../knowledge-graph-editor", editable = true }
+# kge = { git = "https://github.com/MatrixManAtYrService/knowledge-graph-editor" }

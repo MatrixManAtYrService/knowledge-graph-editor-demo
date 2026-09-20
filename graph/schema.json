@@ -1,0 +1,77 @@
+{
+  "nodeTypes": {
+    "commit": {
+      "color": "#5b7fa6",
+      "description": "A git commit (story-bearing; routine ones are folded)",
+      "family": "code"
+    },
+    "release": {
+      "color": "#e8b931",
+      "description": "An xz release tag",
+      "family": "code"
+    },
+    "pull-request": {
+      "color": "#b07aa1",
+      "description": "A GitHub pull request",
+      "family": "code"
+    },
+    "post": {
+      "color": "#76b7b2",
+      "description": "A mailing-list message (linked and summarized, not copied)",
+      "family": "social"
+    },
+    "bug-report": {
+      "color": "#f28e2c",
+      "description": "A distro bug-tracker item",
+      "family": "distro"
+    },
+    "distro": {
+      "color": "#59a14f",
+      "description": "A Linux distribution",
+      "family": "distro"
+    },
+    "skewer": {
+      "color": "#9aa0a6",
+      "description": "An ordered colinearity group (layout intent, interpreted by the view)",
+      "family": "layout"
+    }
+  },
+  "edgeTypes": {
+    "MERGED_AS": {
+      "color": "#8f6bb8",
+      "description": "Pull request landed as this commit",
+      "family": "code"
+    },
+    "TAGGED_AT": {
+      "color": "#e8b931",
+      "description": "Release tag points at this commit",
+      "family": "code"
+    },
+    "CONCERNS": {
+      "color": "#c58a3b",
+      "description": "Bug report is about this release",
+      "family": "distro"
+    },
+    "SHIPPED": {
+      "color": "#59a14f",
+      "description": "Distro shipped this release",
+      "family": "distro"
+    },
+    "skewer-order": {
+      "color": "#c9cdd2",
+      "description": "Skewer membership; data.index gives the order along the skewer",
+      "family": "layout"
+    }
+  },
+  "colorKey": "actor",
+  "colorValues": {
+    "Jia Tan": "#e15759",
+    "Lasse Collin": "#4e79a7",
+    "Hans Jansen": "#f28e2c",
+    "Jigar Kumar": "#edc949",
+    "Dennis Ens": "#af7aa1",
+    "Andres Freund": "#59a14f",
+    "Ed Maste": "#76b7b2",
+    "Matteo Croce": "#9c755f"
+  }
+}

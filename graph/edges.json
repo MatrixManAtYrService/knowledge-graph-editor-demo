@@ -1,0 +1,492 @@
+{
+  "edges": [
+    {
+      "type": "CONCERNS",
+      "from": "bug:debian-1067708",
+      "to": "release:5.6.1",
+      "data": {
+        "note": "https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1067708"
+      }
+    },
+    {
+      "type": "CONCERNS",
+      "from": "bug:debian-accept-5.6.0",
+      "to": "release:5.6.0",
+      "data": {
+        "note": "https://tracker.debian.org/news/1506761/accepted-xz-utils-560-01-source-into-unstable/"
+      }
+    },
+    {
+      "type": "CONCERNS",
+      "from": "bug:debian-rollback",
+      "to": "release:5.6.1",
+      "data": {
+        "note": "https://tracker.debian.org/news/1515519/accepted-xz-utils-561really545-1-source-into-unstable/"
+      }
+    },
+    {
+      "type": "CONCERNS",
+      "from": "bug:gentoo-925415",
+      "to": "release:5.6.0",
+      "data": {
+        "note": "https://bugs.gentoo.org/925415"
+      }
+    },
+    {
+      "type": "CONCERNS",
+      "from": "bug:redhat-2267598",
+      "to": "release:5.6.0",
+      "data": {
+        "note": "https://bugzilla.redhat.com/show_bug.cgi?id=2267598"
+      }
+    },
+    {
+      "type": "CONCERNS",
+      "from": "bug:ubuntu-2059417",
+      "to": "release:5.6.1",
+      "data": {
+        "note": "https://bugs.launchpad.net/ubuntu/+source/xz-utils/+bug/2059417"
+      }
+    },
+    {
+      "type": "SHIPPED",
+      "from": "distro:debian",
+      "to": "release:5.6.0",
+      "data": {
+        "note": "distro tracker"
+      }
+    },
+    {
+      "type": "SHIPPED",
+      "from": "distro:debian",
+      "to": "release:5.6.1",
+      "data": {
+        "note": "distro tracker"
+      }
+    },
+    {
+      "type": "SHIPPED",
+      "from": "distro:fedora",
+      "to": "release:5.6.0",
+      "data": {
+        "note": "distro tracker"
+      }
+    },
+    {
+      "type": "SHIPPED",
+      "from": "distro:gentoo",
+      "to": "release:5.6.0",
+      "data": {
+        "note": "distro tracker"
+      }
+    },
+    {
+      "type": "MERGED_AS",
+      "from": "pr:systemd:31550",
+      "to": "commit:systemd:3fc72d5",
+      "data": {
+        "note": "github api"
+      }
+    },
+    {
+      "type": "TAGGED_AT",
+      "from": "release:5.4.1",
+      "to": "commit:xz:18b845e",
+      "data": {
+        "note": "git tag v5.4.1"
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:endgame",
+      "to": "bug:debian-1067708",
+      "data": {
+        "index": 3
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:endgame",
+      "to": "bug:debian-accept-5.6.0",
+      "data": {
+        "index": 1
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:endgame",
+      "to": "bug:debian-rollback",
+      "data": {
+        "index": 5
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:endgame",
+      "to": "bug:gentoo-925415",
+      "data": {
+        "index": 0
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:endgame",
+      "to": "bug:redhat-2267598",
+      "data": {
+        "index": 2
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:endgame",
+      "to": "bug:ubuntu-2059417",
+      "data": {
+        "index": 4
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:endgame",
+      "to": "post:oss-security-disclosure",
+      "data": {
+        "index": 6
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:libarchive",
+      "to": "pr:libarchive:1598",
+      "data": {
+        "index": 0
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:libarchive",
+      "to": "pr:libarchive:1609",
+      "data": {
+        "index": 1
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:libarchive",
+      "to": "pr:libarchive:2101",
+      "data": {
+        "index": 2
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:oss-fuzz",
+      "to": "commit:oss-fuzz:6403e93",
+      "data": {
+        "index": 0
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:oss-fuzz",
+      "to": "commit:oss-fuzz:d2e42b2",
+      "data": {
+        "index": 1
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:releases",
+      "to": "release:5.4.0",
+      "data": {
+        "index": 0
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:releases",
+      "to": "release:5.4.1",
+      "data": {
+        "index": 1
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:releases",
+      "to": "release:5.4.2",
+      "data": {
+        "index": 2
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:releases",
+      "to": "release:5.4.3",
+      "data": {
+        "index": 3
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:releases",
+      "to": "release:5.4.4",
+      "data": {
+        "index": 4
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:releases",
+      "to": "release:5.4.5",
+      "data": {
+        "index": 5
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:releases",
+      "to": "release:5.4.6",
+      "data": {
+        "index": 6
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:releases",
+      "to": "release:5.6.0",
+      "data": {
+        "index": 7
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:releases",
+      "to": "release:5.6.1",
+      "data": {
+        "index": 8
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:systemd",
+      "to": "commit:systemd:3fc72d5",
+      "data": {
+        "index": 1
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:systemd",
+      "to": "pr:systemd:31550",
+      "data": {
+        "index": 0
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-devel",
+      "to": "post:msg00512",
+      "data": {
+        "index": 0
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-devel",
+      "to": "post:msg00557",
+      "data": {
+        "index": 1
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-devel",
+      "to": "post:msg00562",
+      "data": {
+        "index": 2
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-devel",
+      "to": "post:msg00563",
+      "data": {
+        "index": 3
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-devel",
+      "to": "post:msg00565",
+      "data": {
+        "index": 4
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-devel",
+      "to": "post:msg00566",
+      "data": {
+        "index": 5
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-devel",
+      "to": "post:msg00567",
+      "data": {
+        "index": 6
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-devel",
+      "to": "post:msg00568",
+      "data": {
+        "index": 7
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-devel",
+      "to": "post:msg00569",
+      "data": {
+        "index": 8
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-devel",
+      "to": "post:msg00570",
+      "data": {
+        "index": 9
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-devel",
+      "to": "post:msg00571",
+      "data": {
+        "index": 10
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-java",
+      "to": "commit:xz-java:52fcb4a",
+      "data": {
+        "index": 0
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-java",
+      "to": "commit:xz-java:67d9763",
+      "data": {
+        "index": 2
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-java",
+      "to": "commit:xz-java:8e46fdf",
+      "data": {
+        "index": 1
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-repo",
+      "to": "commit:xz:0c210ca",
+      "data": {
+        "index": 1
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-repo",
+      "to": "commit:xz:1107712",
+      "data": {
+        "index": 11
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-repo",
+      "to": "commit:xz:18b845e",
+      "data": {
+        "index": 2
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-repo",
+      "to": "commit:xz:233885a",
+      "data": {
+        "index": 5
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-repo",
+      "to": "commit:xz:23b5c36",
+      "data": {
+        "index": 3
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-repo",
+      "to": "commit:xz:6468f7e",
+      "data": {
+        "index": 0
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-repo",
+      "to": "commit:xz:74b138d",
+      "data": {
+        "index": 10
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-repo",
+      "to": "commit:xz:93e6fb0",
+      "data": {
+        "index": 6
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-repo",
+      "to": "commit:xz:a100f91",
+      "data": {
+        "index": 9
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-repo",
+      "to": "commit:xz:b72d212",
+      "data": {
+        "index": 4
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-repo",
+      "to": "commit:xz:cf44e4b",
+      "data": {
+        "index": 8
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-repo",
+      "to": "commit:xz:f1cd9d7",
+      "data": {
+        "index": 7
+      }
+    }
+  ]
+}

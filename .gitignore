@@ -1,0 +1,4 @@
+.venv/
+graph/.audit/
+uv.lock
+.direnv/
