@@ -1,14 +1,21 @@
-# knowledge-graph-editor demo: the xz backdoor
+# knowledge-graph-editor demo
 
-The [xz-utils backdoor](https://en.wikipedia.org/wiki/XZ_Utils_backdoor)
-(CVE-2024-3094) as a
-[knowledge-graph-editor](https://github.com/MatrixManAtYrService/knowledge-graph-editor)
-graph: "Jia Tan" earned maintainer trust on xz over about two years, apparent
-sockpuppets pressured Lasse Collin on the mailing list, the backdoor shipped
-in 5.6.0 and 5.6.1, and Andres Freund noticed sshd taking 500ms too long.
+Two graphs for
+[knowledge-graph-editor](https://github.com/MatrixManAtYrService/knowledge-graph-editor),
+picked from the toolbar's graph picker (each graph keeps its own views):
 
-This repo holds only the *data* (`graph/` — JSON files, committed like code);
-the editor itself is pulled straight from GitHub as a Python dependency.
+- **xz-backdoor** — the [xz-utils backdoor](https://en.wikipedia.org/wiki/XZ_Utils_backdoor)
+  (CVE-2024-3094): "Jia Tan" earned maintainer trust on xz over about two
+  years, apparent sockpuppets pressured Lasse Collin on the mailing list, the
+  backdoor shipped in 5.6.0 and 5.6.1, and Andres Freund noticed sshd taking
+  500ms too long.
+- **first-ascents** — the fourteen 8000-meter peaks, 1950–1964: two
+  interleaving date timelines (Himalaya vs Karakoram) and a by-elevation
+  skewer cutting across both.
+
+This repo holds only the *data* (`graphs/<id>/` — JSON files, committed like
+code); the editor itself is pulled straight from GitHub as a Python
+dependency.
 
 ## Run it
 
@@ -19,11 +26,14 @@ uv run kge serve
 
 That's the whole setup: [uv](https://docs.astral.sh/uv/) resolves the `kge`
 dependency from GitHub (Python 3.12+ required), and the browser UI ships
-inside the package. Don't have uv? `nix develop` provides it. Agents read and
-edit the same graph via the CLI; run `uv run kge onboarding` for the
-collaboration model.
+inside the package. `kge serve` finds every graph under `graphs/`. Don't have
+uv? `nix develop` provides it. Agents read and edit the same graphs via the
+CLI (`--graph xz-backdoor` / `--graph first-ascents`); run
+`uv run kge onboarding` for the collaboration model.
 
-## Why this story?
+## Graph 1: the xz backdoor
+
+### Why this story?
 
 Because it's made of *timelines* — which is exactly what kge's **skewer**
 feature renders. Each venue gets a rail, an ordered sequence its nodes stay
@@ -56,7 +66,7 @@ order** on the date bundle and read the interleaved campaign; **apply
 proportional order** and watch the gaps appear; select a commit and read
 its `caption` in the inspector; the sidebar's color legend names the cast.
 
-## Data provenance
+### Data provenance
 
 Everything was curated from primary sources following
 [Russ Cox's timeline](https://research.swtch.com/xz-timeline), which links
@@ -79,10 +89,11 @@ nearly every commit, email, and bug by URL:
 
 The full window (2021-10 → 2024-04) contains 1,115 first-parent xz commits
 (445 authored by Jia Tan); routine commits are folded into counts on the
-rails, so only story-bearing items are nodes. `build_graph.py` regenerates
-`graph/` from the curated tables embedded in it — no network needed.
+rails, so only story-bearing items are nodes. `build_xz.py` regenerates
+`graphs/xz-backdoor/` from the curated tables embedded in it — no network
+needed.
 
-### Licensing and privacy
+#### Licensing and privacy
 
 Commit hashes, dates, names, subjects, and links are facts about public
 repositories; no xz source code or message text is redistributed. Email
@@ -90,7 +101,46 @@ addresses are omitted throughout. "Jia Tan", "Jigar Kumar", "Dennis Ens",
 and "Hans Jansen" are recorded as the personas they are, with no speculation
 about who operated them.
 
+## Graph 2: first ascents of the 8000ers
+
+The fourteen peaks above 8000 meters were all first climbed in one
+fifteen-year window — by people who were born, who tried and failed, who
+tried and died, and who occasionally collected two. The graph splits that
+into **what happened** (dated events) and **who and where** (free-floating
+climbers, skewered peaks):
+
+- **mountains** — one rail per nation credited with a first ascent (the
+  summit party's flag; captions carry the nuance), ordered by
+  `orderKey: elevation`. Austria's four-peak run sits beside single-peak
+  rails like Italy's K2, and each *skewer node* carries `data.nation`
+  itself, so the rail — bulb, arrowhead, and all — wears its country's
+  legend color. **Apply proportional order** and the bundle's axis becomes
+  an altimeter: a cluster at 8000–8200 m, then daylight up to Everest.
+- **timeline** — a single rail of *event* nodes ordered by
+  `orderKey: date`, from Mummery's birth in 1855 to Chogolisa's belated
+  first ascent in 1975. Climbers float free, tied to their dates by typed
+  edges — `born`, `attempt`, `ascent`, `first-ascent`, and the grim
+  `died-ascending` — and each event, where relevant, points `on` its
+  mountain. Ordinary deaths stay off the timeline (the date sits in the
+  climber's data); dying on one of these mountains earns a `†` node. One
+  date can carry several stories: 1957-06-27 on Chogolisa is Buhl's
+  `died-ascending` and Diemberger's `attempt` in a single node.
+
+Every peak has its first ascenders in the graph, and several of them
+attempted each other's mountains first: Tenzing high on Everest a year
+before his summit, Hillary failing on Cho Oyu, the French giving up on
+Dhaulagiri before walking over to Annapurna, Schoening surviving the K2
+retreat that killed Gilkey and then bagging Gasherbrum I. Node color binds
+to `data.nation` on climbers, peaks, and events alike, so the timeline
+reads as a national relay — and proportional order stretches it into a
+century-and-a-quarter with the 1950s crammed in the middle.
+
+`build_ascents.py` regenerates `graphs/first-ascents/` from tables embedded
+in it; every node links its Wikipedia article.
+
 ## Make it yours
 
-Delete `graph/`, run `kge serve` again (it seeds an empty graph), and add
-your own types and nodes. Commit `graph/` like any other source.
+`uv run kge add-graph my-graph` (or the UI's **New graph** button) seeds an
+empty graph next to these two — or delete `graphs/` entirely and run
+`kge serve` again for a blank slate. Add your own types and nodes; commit
+`graphs/` like any other source.

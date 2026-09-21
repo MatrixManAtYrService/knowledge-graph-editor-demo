@@ -1,0 +1,79 @@
+{
+  "nodeTypes": {
+    "peak": {
+      "color": "#5b7fa6",
+      "description": "A peak (8000ers, plus the mountains the story demands)",
+      "family": "mountains"
+    },
+    "climber": {
+      "color": "#b07aa1",
+      "description": "A mountaineer of the first-ascent era",
+      "family": "people"
+    },
+    "event": {
+      "color": "#8f98a3",
+      "description": "A dated happening on the timeline; edges say what and to whom",
+      "family": "events"
+    },
+    "skewer": {
+      "color": "#9aa0a6",
+      "description": "An ordered colinearity group (layout intent, interpreted by the view)",
+      "family": "layout"
+    }
+  },
+  "edgeTypes": {
+    "born": {
+      "color": "#59a14f",
+      "description": "Climber was born on this date",
+      "family": "events"
+    },
+    "died-ascending": {
+      "color": "#111111",
+      "description": "Climber died on this date, ascending this graph's mountain",
+      "family": "events"
+    },
+    "attempt": {
+      "color": "#edc949",
+      "description": "Climber attempted the event's mountain and lived, without the summit",
+      "family": "events"
+    },
+    "ascent": {
+      "color": "#76b7b2",
+      "description": "Climber summited the event's mountain (not a first ascent)",
+      "family": "events"
+    },
+    "first-ascent": {
+      "color": "#4e79a7",
+      "description": "Climber stood on top on the first ascent",
+      "family": "events"
+    },
+    "on": {
+      "color": "#c9cdd2",
+      "description": "The event happened on this mountain",
+      "family": "structure"
+    },
+    "skewer-order": {
+      "color": "#c9cdd2",
+      "description": "Skewer membership; data.index gives the order along the skewer",
+      "family": "layout"
+    }
+  },
+  "colorKey": "nation",
+  "colorValues": {
+    "France": "#4e79a7",
+    "United Kingdom": "#e15759",
+    "Austria": "#f28e2c",
+    "Italy": "#59a14f",
+    "Switzerland": "#edc949",
+    "Japan": "#b07aa1",
+    "United States": "#76b7b2",
+    "China": "#9c755f",
+    "New Zealand": "#af7aa1",
+    "Nepal": "#ff9da7",
+    "Germany": "#8cd17d",
+    "Pakistan": "#2a9d8f",
+    "Nepal–China": "#8c6bb1",
+    "Pakistan–China": "#66a61e",
+    "Nepal–India": "#e6ab02"
+  }
+}

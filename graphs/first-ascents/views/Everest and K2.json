@@ -1,0 +1,292 @@
+{
+  "id": "Everest and K2",
+  "name": "Everest and K2",
+  "visibleNodeTypes": null,
+  "visibleEdgeTypes": null,
+  "nodeOverrides": [],
+  "edgeOverrides": [],
+  "focus": null,
+  "focusShow": [
+    "peak:k2"
+  ],
+  "focusHide": [],
+  "skewerGroups": {
+    "mountains": {
+      "align": true,
+      "grouped": false,
+      "axis": null
+    },
+    "timeline": {
+      "align": false,
+      "grouped": true,
+      "axis": {
+        "min": -3607286400000.0,
+        "max": 176169600000.0,
+        "isDate": true
+      }
+    }
+  },
+  "layout": {
+    "engine": "fcose",
+    "seedPositions": {
+      "climber:band": {
+        "x": -530.3318116603838,
+        "y": 248.27999025617794
+      },
+      "climber:buhl": {
+        "x": -497.10753311565463,
+        "y": 117.72176189878509
+      },
+      "climber:compagnoni": {
+        "x": -515.1770541647024,
+        "y": -36.126614495613225
+      },
+      "climber:couzy": {
+        "x": -272.44899236066937,
+        "y": 131.08917039487594
+      },
+      "climber:diemberger": {
+        "x": -466.79791983974303,
+        "y": 211.8086986519035
+      },
+      "climber:gilkey": {
+        "x": -580.5351480444837,
+        "y": 110.92177911071464
+      },
+      "climber:gyalzen-norbu": {
+        "x": -397.2963918898797,
+        "y": 203.57553880459912
+      },
+      "climber:herzog": {
+        "x": -730.1012783443289,
+        "y": 88.06395466368245
+      },
+      "climber:hillary": {
+        "x": -484.24355823522194,
+        "y": 63.31781268046022
+      },
+      "climber:imanishi": {
+        "x": -302.45016922957797,
+        "y": 45.89094200493904
+      },
+      "climber:irvine": {
+        "x": -675.5155555143747,
+        "y": 15.133055264758774
+      },
+      "climber:lacedelli": {
+        "x": -332.9511217937635,
+        "y": 134.09696749305758
+      },
+      "climber:lachenal": {
+        "x": -557.1707666530995,
+        "y": 189.53894216188613
+      },
+      "climber:mallory": {
+        "x": -899.0413359776111,
+        "y": 53.55506465742577
+      },
+      "climber:merkl": {
+        "x": -805.3007149099943,
+        "y": 60.662431088623265
+      },
+      "climber:moravec": {
+        "x": -792.8824910238018,
+        "y": 155.99390034581998
+      },
+      "climber:mummery": {
+        "x": -1027.1577608856128,
+        "y": 49.50231501832501
+      },
+      "climber:norgay": {
+        "x": -689.8231639538191,
+        "y": 208.29331782495723
+      },
+      "climber:pasang-dawa-lama": {
+        "x": -432.9153477531019,
+        "y": 129.25571481728784
+      },
+      "climber:reiss": {
+        "x": -510.8071314496847,
+        "y": 15.888988968325219
+      },
+      "climber:schoening": {
+        "x": -664.225328743807,
+        "y": 122.5277120033834
+      },
+      "climber:terray": {
+        "x": -619.628027790176,
+        "y": 212.06572246716456
+      },
+      "climber:tichy": {
+        "x": -518.3282526075602,
+        "y": 164.71627184345016
+      },
+      "climber:xu-jing": {
+        "x": -357.10718200416676,
+        "y": 69.64692728794246
+      },
+      "peak:annapurna": {
+        "x": -426.38287111727595,
+        "y": -461.398813327551
+      }
+    },
+    "pinned": [],
+    "skewers": {
+      "skewer:mountains-china": {
+        "a": {
+          "x": -657.9152873045371,
+          "y": -171.08747893367007
+        },
+        "b": {
+          "x": -659.1538327856745,
+          "y": -624.8002004890866
+        },
+        "pinned": false
+      },
+      "skewer:mountains-nepal": {
+        "a": {
+          "x": -415.3872182491252,
+          "y": -171.74953232055285
+        },
+        "b": {
+          "x": -416.62576373026263,
+          "y": -625.4622538759694
+        },
+        "pinned": false
+      },
+      "skewer:mountains-nepal-china": {
+        "a": {
+          "x": -550.8264890087686,
+          "y": -171.37981005181672
+        },
+        "b": {
+          "x": -552.065034489906,
+          "y": -625.0925316072332
+        },
+        "pinned": false
+      },
+      "skewer:mountains-nepal-india": {
+        "a": {
+          "x": -1015.3849827174267,
+          "y": -170.11165777005053
+        },
+        "b": {
+          "x": -1016.6235281985641,
+          "y": -623.824379325467
+        },
+        "pinned": false
+      },
+      "skewer:mountains-pakistan": {
+        "a": {
+          "x": -895.3854298237673,
+          "y": -170.43923268015098
+        },
+        "b": {
+          "x": -896.6239753049047,
+          "y": -624.1519542355675
+        },
+        "pinned": false
+      },
+      "skewer:mountains-pakistan-china": {
+        "a": {
+          "x": -775.3858769301066,
+          "y": -170.76680759025143
+        },
+        "b": {
+          "x": -776.624422411244,
+          "y": -624.4795291456679
+        },
+        "pinned": false
+      },
+      "skewer:timeline": {
+        "a": {
+          "x": -1043.0049136412347,
+          "y": -88.36664386393649
+        },
+        "b": {
+          "x": -337.60788617895804,
+          "y": -93.7351100126275
+        },
+        "pinned": false
+      }
+    },
+    "memberFracs": {
+      "skewer:mountains-china": {
+        "peak:shishapangma": 0.12285714285714285
+      },
+      "skewer:mountains-nepal": {
+        "peak:annapurna": 0.3742857142857143,
+        "peak:manaslu": 0.5,
+        "peak:dhaulagiri": 0.5628571428571427
+      },
+      "skewer:mountains-nepal-china": {
+        "peak:cho-oyu": 0.6257142857142857,
+        "peak:makalu": 0.6885714285714286,
+        "peak:lhotse": 0.7514285714285713,
+        "peak:everest": 0.94
+      },
+      "skewer:mountains-nepal-india": {
+        "peak:kangchenjunga": 0.8142857142857143
+      },
+      "skewer:mountains-pakistan": {
+        "peak:chogolisa": 0.06,
+        "peak:nanga-parbat": 0.4371428571428571
+      },
+      "skewer:mountains-pakistan-china": {
+        "peak:gasherbrum-2": 0.1857142857142857,
+        "peak:broad-peak": 0.24857142857142855,
+        "peak:gasherbrum-1": 0.3114285714285714,
+        "peak:k2": 0.8771428571428572
+      },
+      "skewer:timeline": {
+        "ev:b-mummery": 0.06,
+        "ev:b-mallory": 0.28585795843799955,
+        "ev:1895-nanga-parbat": 0.35325964832153456,
+        "ev:b-merkl": 0.39081890842658146,
+        "ev:b-irvine": 0.40185156428408314,
+        "ev:b-tichy": 0.4763471112126056,
+        "ev:b-norgay": 0.49095683946106417,
+        "ev:b-compagnoni": 0.4933683489381137,
+        "ev:b-herzog": 0.5249591230874628,
+        "ev:b-hillary": 0.5286969627768896,
+        "ev:b-reiss": 0.5330979675725052,
+        "ev:b-lachenal": 0.543326786937657,
+        "ev:b-terray": 0.5434875542361269,
+        "ev:b-moravec": 0.5490340260333408,
+        "ev:1922-everest": 0.5495163279287509,
+        "ev:b-couzy": 0.5578360356245718,
+        "ev:1924-everest": 0.5645681662480018,
+        "ev:b-buhl": 0.5666782370404202,
+        "ev:b-lacedelli": 0.5755003425439598,
+        "ev:b-gilkey": 0.5814286366750399,
+        "ev:b-schoening": 0.5876181776661338,
+        "ev:b-band": 0.5987312171728705,
+        "ev:b-diemberger": 0.6216003653802238,
+        "ev:1934-nanga-parbat": 0.6387220826672757,
+        "ev:1950-dhaulagiri": 0.7548965517241379,
+        "ev:fa-annapurna": 0.7552984699703129,
+        "ev:1952-cho-oyu": 0.7693254167618178,
+        "ev:1952-everest": 0.7698680063941539,
+        "ev:fa-everest": 0.7772231102991551,
+        "ev:fa-nanga-parbat": 0.7779264672299613,
+        "ev:1953-k2": 0.7786901118976934,
+        "ev:fa-k2": 0.7858241607672984,
+        "ev:fa-cho-oyu": 0.7874318337519981,
+        "ev:fa-makalu": 0.7916117835122174,
+        "ev:1955-makalu-2nd": 0.7916318794245261,
+        "ev:fa-kangchenjunga": 0.7918127426353048,
+        "ev:fa-manaslu": 0.7988463119433662,
+        "ev:fa-lhotse": 0.7990271751541449,
+        "ev:fa-gasherbrum-2": 0.8000319707695822,
+        "ev:fa-broad-peak": 0.8068042932176296,
+        "ev:1957-chogolisa": 0.807166019639187,
+        "ev:fa-gasherbrum-1": 0.8146617949303494,
+        "ev:fa-dhaulagiri": 0.8282868234756793,
+        "ev:1960-everest": 0.8285078785110755,
+        "ev:fa-shishapangma": 0.8574258963233614,
+        "ev:fa-chogolisa": 0.94
+      }
+    },
+    "rules": []
+  }
+}

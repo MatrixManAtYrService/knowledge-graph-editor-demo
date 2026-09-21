@@ -1,0 +1,1002 @@
+{
+  "edges": [
+    {
+      "type": "attempt",
+      "from": "climber:band",
+      "to": "ev:fa-everest",
+      "data": {}
+    },
+    {
+      "type": "born",
+      "from": "climber:band",
+      "to": "ev:b-band",
+      "data": {}
+    },
+    {
+      "type": "first-ascent",
+      "from": "climber:band",
+      "to": "ev:fa-kangchenjunga",
+      "data": {}
+    },
+    {
+      "type": "born",
+      "from": "climber:buhl",
+      "to": "ev:b-buhl",
+      "data": {}
+    },
+    {
+      "type": "died-ascending",
+      "from": "climber:buhl",
+      "to": "ev:1957-chogolisa",
+      "data": {}
+    },
+    {
+      "type": "first-ascent",
+      "from": "climber:buhl",
+      "to": "ev:fa-broad-peak",
+      "data": {}
+    },
+    {
+      "type": "first-ascent",
+      "from": "climber:buhl",
+      "to": "ev:fa-nanga-parbat",
+      "data": {}
+    },
+    {
+      "type": "born",
+      "from": "climber:compagnoni",
+      "to": "ev:b-compagnoni",
+      "data": {}
+    },
+    {
+      "type": "first-ascent",
+      "from": "climber:compagnoni",
+      "to": "ev:fa-k2",
+      "data": {}
+    },
+    {
+      "type": "attempt",
+      "from": "climber:couzy",
+      "to": "ev:1950-dhaulagiri",
+      "data": {}
+    },
+    {
+      "type": "born",
+      "from": "climber:couzy",
+      "to": "ev:b-couzy",
+      "data": {}
+    },
+    {
+      "type": "first-ascent",
+      "from": "climber:couzy",
+      "to": "ev:fa-makalu",
+      "data": {}
+    },
+    {
+      "type": "attempt",
+      "from": "climber:diemberger",
+      "to": "ev:1957-chogolisa",
+      "data": {}
+    },
+    {
+      "type": "born",
+      "from": "climber:diemberger",
+      "to": "ev:b-diemberger",
+      "data": {}
+    },
+    {
+      "type": "first-ascent",
+      "from": "climber:diemberger",
+      "to": "ev:fa-broad-peak",
+      "data": {}
+    },
+    {
+      "type": "first-ascent",
+      "from": "climber:diemberger",
+      "to": "ev:fa-dhaulagiri",
+      "data": {}
+    },
+    {
+      "type": "born",
+      "from": "climber:gilkey",
+      "to": "ev:b-gilkey",
+      "data": {}
+    },
+    {
+      "type": "died-ascending",
+      "from": "climber:gilkey",
+      "to": "ev:1953-k2",
+      "data": {}
+    },
+    {
+      "type": "ascent",
+      "from": "climber:gyalzen-norbu",
+      "to": "ev:1955-makalu-2nd",
+      "data": {}
+    },
+    {
+      "type": "first-ascent",
+      "from": "climber:gyalzen-norbu",
+      "to": "ev:fa-manaslu",
+      "data": {}
+    },
+    {
+      "type": "attempt",
+      "from": "climber:herzog",
+      "to": "ev:1950-dhaulagiri",
+      "data": {}
+    },
+    {
+      "type": "born",
+      "from": "climber:herzog",
+      "to": "ev:b-herzog",
+      "data": {}
+    },
+    {
+      "type": "first-ascent",
+      "from": "climber:herzog",
+      "to": "ev:fa-annapurna",
+      "data": {}
+    },
+    {
+      "type": "attempt",
+      "from": "climber:hillary",
+      "to": "ev:1952-cho-oyu",
+      "data": {}
+    },
+    {
+      "type": "born",
+      "from": "climber:hillary",
+      "to": "ev:b-hillary",
+      "data": {}
+    },
+    {
+      "type": "first-ascent",
+      "from": "climber:hillary",
+      "to": "ev:fa-everest",
+      "data": {}
+    },
+    {
+      "type": "first-ascent",
+      "from": "climber:imanishi",
+      "to": "ev:fa-manaslu",
+      "data": {}
+    },
+    {
+      "type": "born",
+      "from": "climber:irvine",
+      "to": "ev:b-irvine",
+      "data": {}
+    },
+    {
+      "type": "died-ascending",
+      "from": "climber:irvine",
+      "to": "ev:1924-everest",
+      "data": {}
+    },
+    {
+      "type": "born",
+      "from": "climber:lacedelli",
+      "to": "ev:b-lacedelli",
+      "data": {}
+    },
+    {
+      "type": "first-ascent",
+      "from": "climber:lacedelli",
+      "to": "ev:fa-k2",
+      "data": {}
+    },
+    {
+      "type": "attempt",
+      "from": "climber:lachenal",
+      "to": "ev:1950-dhaulagiri",
+      "data": {}
+    },
+    {
+      "type": "born",
+      "from": "climber:lachenal",
+      "to": "ev:b-lachenal",
+      "data": {}
+    },
+    {
+      "type": "first-ascent",
+      "from": "climber:lachenal",
+      "to": "ev:fa-annapurna",
+      "data": {}
+    },
+    {
+      "type": "attempt",
+      "from": "climber:mallory",
+      "to": "ev:1922-everest",
+      "data": {}
+    },
+    {
+      "type": "born",
+      "from": "climber:mallory",
+      "to": "ev:b-mallory",
+      "data": {}
+    },
+    {
+      "type": "died-ascending",
+      "from": "climber:mallory",
+      "to": "ev:1924-everest",
+      "data": {}
+    },
+    {
+      "type": "born",
+      "from": "climber:merkl",
+      "to": "ev:b-merkl",
+      "data": {}
+    },
+    {
+      "type": "died-ascending",
+      "from": "climber:merkl",
+      "to": "ev:1934-nanga-parbat",
+      "data": {}
+    },
+    {
+      "type": "born",
+      "from": "climber:moravec",
+      "to": "ev:b-moravec",
+      "data": {}
+    },
+    {
+      "type": "first-ascent",
+      "from": "climber:moravec",
+      "to": "ev:fa-gasherbrum-2",
+      "data": {}
+    },
+    {
+      "type": "born",
+      "from": "climber:mummery",
+      "to": "ev:b-mummery",
+      "data": {}
+    },
+    {
+      "type": "died-ascending",
+      "from": "climber:mummery",
+      "to": "ev:1895-nanga-parbat",
+      "data": {}
+    },
+    {
+      "type": "attempt",
+      "from": "climber:norgay",
+      "to": "ev:1952-everest",
+      "data": {}
+    },
+    {
+      "type": "born",
+      "from": "climber:norgay",
+      "to": "ev:b-norgay",
+      "data": {}
+    },
+    {
+      "type": "first-ascent",
+      "from": "climber:norgay",
+      "to": "ev:fa-everest",
+      "data": {}
+    },
+    {
+      "type": "first-ascent",
+      "from": "climber:pasang-dawa-lama",
+      "to": "ev:fa-cho-oyu",
+      "data": {}
+    },
+    {
+      "type": "born",
+      "from": "climber:reiss",
+      "to": "ev:b-reiss",
+      "data": {}
+    },
+    {
+      "type": "first-ascent",
+      "from": "climber:reiss",
+      "to": "ev:fa-lhotse",
+      "data": {}
+    },
+    {
+      "type": "attempt",
+      "from": "climber:schoening",
+      "to": "ev:1953-k2",
+      "data": {}
+    },
+    {
+      "type": "born",
+      "from": "climber:schoening",
+      "to": "ev:b-schoening",
+      "data": {}
+    },
+    {
+      "type": "first-ascent",
+      "from": "climber:schoening",
+      "to": "ev:fa-gasherbrum-1",
+      "data": {}
+    },
+    {
+      "type": "attempt",
+      "from": "climber:terray",
+      "to": "ev:1950-dhaulagiri",
+      "data": {}
+    },
+    {
+      "type": "born",
+      "from": "climber:terray",
+      "to": "ev:b-terray",
+      "data": {}
+    },
+    {
+      "type": "first-ascent",
+      "from": "climber:terray",
+      "to": "ev:fa-makalu",
+      "data": {}
+    },
+    {
+      "type": "born",
+      "from": "climber:tichy",
+      "to": "ev:b-tichy",
+      "data": {}
+    },
+    {
+      "type": "first-ascent",
+      "from": "climber:tichy",
+      "to": "ev:fa-cho-oyu",
+      "data": {}
+    },
+    {
+      "type": "attempt",
+      "from": "climber:xu-jing",
+      "to": "ev:1960-everest",
+      "data": {}
+    },
+    {
+      "type": "first-ascent",
+      "from": "climber:xu-jing",
+      "to": "ev:fa-shishapangma",
+      "data": {}
+    },
+    {
+      "type": "on",
+      "from": "ev:1895-nanga-parbat",
+      "to": "peak:nanga-parbat",
+      "data": {}
+    },
+    {
+      "type": "on",
+      "from": "ev:1922-everest",
+      "to": "peak:everest",
+      "data": {}
+    },
+    {
+      "type": "on",
+      "from": "ev:1924-everest",
+      "to": "peak:everest",
+      "data": {}
+    },
+    {
+      "type": "on",
+      "from": "ev:1934-nanga-parbat",
+      "to": "peak:nanga-parbat",
+      "data": {}
+    },
+    {
+      "type": "on",
+      "from": "ev:1950-dhaulagiri",
+      "to": "peak:dhaulagiri",
+      "data": {}
+    },
+    {
+      "type": "on",
+      "from": "ev:1952-cho-oyu",
+      "to": "peak:cho-oyu",
+      "data": {}
+    },
+    {
+      "type": "on",
+      "from": "ev:1952-everest",
+      "to": "peak:everest",
+      "data": {}
+    },
+    {
+      "type": "on",
+      "from": "ev:1953-k2",
+      "to": "peak:k2",
+      "data": {}
+    },
+    {
+      "type": "on",
+      "from": "ev:1955-makalu-2nd",
+      "to": "peak:makalu",
+      "data": {}
+    },
+    {
+      "type": "on",
+      "from": "ev:1957-chogolisa",
+      "to": "peak:chogolisa",
+      "data": {}
+    },
+    {
+      "type": "on",
+      "from": "ev:1960-everest",
+      "to": "peak:everest",
+      "data": {}
+    },
+    {
+      "type": "on",
+      "from": "ev:fa-annapurna",
+      "to": "peak:annapurna",
+      "data": {}
+    },
+    {
+      "type": "on",
+      "from": "ev:fa-broad-peak",
+      "to": "peak:broad-peak",
+      "data": {}
+    },
+    {
+      "type": "on",
+      "from": "ev:fa-cho-oyu",
+      "to": "peak:cho-oyu",
+      "data": {}
+    },
+    {
+      "type": "on",
+      "from": "ev:fa-chogolisa",
+      "to": "peak:chogolisa",
+      "data": {}
+    },
+    {
+      "type": "on",
+      "from": "ev:fa-dhaulagiri",
+      "to": "peak:dhaulagiri",
+      "data": {}
+    },
+    {
+      "type": "on",
+      "from": "ev:fa-everest",
+      "to": "peak:everest",
+      "data": {}
+    },
+    {
+      "type": "on",
+      "from": "ev:fa-gasherbrum-1",
+      "to": "peak:gasherbrum-1",
+      "data": {}
+    },
+    {
+      "type": "on",
+      "from": "ev:fa-gasherbrum-2",
+      "to": "peak:gasherbrum-2",
+      "data": {}
+    },
+    {
+      "type": "on",
+      "from": "ev:fa-k2",
+      "to": "peak:k2",
+      "data": {}
+    },
+    {
+      "type": "on",
+      "from": "ev:fa-kangchenjunga",
+      "to": "peak:kangchenjunga",
+      "data": {}
+    },
+    {
+      "type": "on",
+      "from": "ev:fa-lhotse",
+      "to": "peak:lhotse",
+      "data": {}
+    },
+    {
+      "type": "on",
+      "from": "ev:fa-makalu",
+      "to": "peak:makalu",
+      "data": {}
+    },
+    {
+      "type": "on",
+      "from": "ev:fa-manaslu",
+      "to": "peak:manaslu",
+      "data": {}
+    },
+    {
+      "type": "on",
+      "from": "ev:fa-nanga-parbat",
+      "to": "peak:nanga-parbat",
+      "data": {}
+    },
+    {
+      "type": "on",
+      "from": "ev:fa-shishapangma",
+      "to": "peak:shishapangma",
+      "data": {}
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:mountains-china",
+      "to": "peak:shishapangma",
+      "data": {
+        "index": 0
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:mountains-nepal",
+      "to": "peak:annapurna",
+      "data": {
+        "index": 0
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:mountains-nepal",
+      "to": "peak:dhaulagiri",
+      "data": {
+        "index": 2
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:mountains-nepal",
+      "to": "peak:manaslu",
+      "data": {
+        "index": 1
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:mountains-nepal-china",
+      "to": "peak:cho-oyu",
+      "data": {
+        "index": 0
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:mountains-nepal-china",
+      "to": "peak:everest",
+      "data": {
+        "index": 3
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:mountains-nepal-china",
+      "to": "peak:lhotse",
+      "data": {
+        "index": 2
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:mountains-nepal-china",
+      "to": "peak:makalu",
+      "data": {
+        "index": 1
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:mountains-nepal-india",
+      "to": "peak:kangchenjunga",
+      "data": {
+        "index": 0
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:mountains-pakistan",
+      "to": "peak:chogolisa",
+      "data": {
+        "index": 0
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:mountains-pakistan",
+      "to": "peak:nanga-parbat",
+      "data": {
+        "index": 1
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:mountains-pakistan-china",
+      "to": "peak:broad-peak",
+      "data": {
+        "index": 1
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:mountains-pakistan-china",
+      "to": "peak:gasherbrum-1",
+      "data": {
+        "index": 2
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:mountains-pakistan-china",
+      "to": "peak:gasherbrum-2",
+      "data": {
+        "index": 0
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:mountains-pakistan-china",
+      "to": "peak:k2",
+      "data": {
+        "index": 3
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:timeline",
+      "to": "ev:1895-nanga-parbat",
+      "data": {
+        "index": 2
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:timeline",
+      "to": "ev:1922-everest",
+      "data": {
+        "index": 14
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:timeline",
+      "to": "ev:1924-everest",
+      "data": {
+        "index": 16
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:timeline",
+      "to": "ev:1934-nanga-parbat",
+      "data": {
+        "index": 23
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:timeline",
+      "to": "ev:1950-dhaulagiri",
+      "data": {
+        "index": 24
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:timeline",
+      "to": "ev:1952-cho-oyu",
+      "data": {
+        "index": 26
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:timeline",
+      "to": "ev:1952-everest",
+      "data": {
+        "index": 27
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:timeline",
+      "to": "ev:1953-k2",
+      "data": {
+        "index": 30
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:timeline",
+      "to": "ev:1955-makalu-2nd",
+      "data": {
+        "index": 34
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:timeline",
+      "to": "ev:1957-chogolisa",
+      "data": {
+        "index": 40
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:timeline",
+      "to": "ev:1960-everest",
+      "data": {
+        "index": 43
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:timeline",
+      "to": "ev:b-band",
+      "data": {
+        "index": 21
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:timeline",
+      "to": "ev:b-buhl",
+      "data": {
+        "index": 17
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:timeline",
+      "to": "ev:b-compagnoni",
+      "data": {
+        "index": 7
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:timeline",
+      "to": "ev:b-couzy",
+      "data": {
+        "index": 15
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:timeline",
+      "to": "ev:b-diemberger",
+      "data": {
+        "index": 22
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:timeline",
+      "to": "ev:b-gilkey",
+      "data": {
+        "index": 19
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:timeline",
+      "to": "ev:b-herzog",
+      "data": {
+        "index": 8
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:timeline",
+      "to": "ev:b-hillary",
+      "data": {
+        "index": 9
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:timeline",
+      "to": "ev:b-irvine",
+      "data": {
+        "index": 4
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:timeline",
+      "to": "ev:b-lacedelli",
+      "data": {
+        "index": 18
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:timeline",
+      "to": "ev:b-lachenal",
+      "data": {
+        "index": 11
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:timeline",
+      "to": "ev:b-mallory",
+      "data": {
+        "index": 1
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:timeline",
+      "to": "ev:b-merkl",
+      "data": {
+        "index": 3
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:timeline",
+      "to": "ev:b-moravec",
+      "data": {
+        "index": 13
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:timeline",
+      "to": "ev:b-mummery",
+      "data": {
+        "index": 0
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:timeline",
+      "to": "ev:b-norgay",
+      "data": {
+        "index": 6
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:timeline",
+      "to": "ev:b-reiss",
+      "data": {
+        "index": 10
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:timeline",
+      "to": "ev:b-schoening",
+      "data": {
+        "index": 20
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:timeline",
+      "to": "ev:b-terray",
+      "data": {
+        "index": 12
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:timeline",
+      "to": "ev:b-tichy",
+      "data": {
+        "index": 5
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:timeline",
+      "to": "ev:fa-annapurna",
+      "data": {
+        "index": 25
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:timeline",
+      "to": "ev:fa-broad-peak",
+      "data": {
+        "index": 39
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:timeline",
+      "to": "ev:fa-cho-oyu",
+      "data": {
+        "index": 32
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:timeline",
+      "to": "ev:fa-chogolisa",
+      "data": {
+        "index": 45
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:timeline",
+      "to": "ev:fa-dhaulagiri",
+      "data": {
+        "index": 42
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:timeline",
+      "to": "ev:fa-everest",
+      "data": {
+        "index": 28
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:timeline",
+      "to": "ev:fa-gasherbrum-1",
+      "data": {
+        "index": 41
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:timeline",
+      "to": "ev:fa-gasherbrum-2",
+      "data": {
+        "index": 38
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:timeline",
+      "to": "ev:fa-k2",
+      "data": {
+        "index": 31
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:timeline",
+      "to": "ev:fa-kangchenjunga",
+      "data": {
+        "index": 35
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:timeline",
+      "to": "ev:fa-lhotse",
+      "data": {
+        "index": 37
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:timeline",
+      "to": "ev:fa-makalu",
+      "data": {
+        "index": 33
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:timeline",
+      "to": "ev:fa-manaslu",
+      "data": {
+        "index": 36
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:timeline",
+      "to": "ev:fa-nanga-parbat",
+      "data": {
+        "index": 29
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:timeline",
+      "to": "ev:fa-shishapangma",
+      "data": {
+        "index": 44
+      }
+    }
+  ]
+}

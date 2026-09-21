@@ -15,7 +15,7 @@ summarized, never copied.
 import json
 from pathlib import Path
 
-OUT = Path(__file__).parent / "graph"
+OUT = Path(__file__).parent / "graphs" / "xz-backdoor"
 
 XZ = "https://git.tukaani.org/?p=xz.git;a=commitdiff;h="
 MAIL = "https://www.mail-archive.com/xz-devel@tukaani.org/"
@@ -324,9 +324,11 @@ schema = {
     },
 }
 
+# The graph's identity lives in its directory name (the UI's graph picker
+# shows it); the view is just this graph's default perspective.
 view = {
     "id": "default",
-    "name": "The xz backdoor",
+    "name": "Default",
     "visibleNodeTypes": None,
     "visibleEdgeTypes": None,
     "nodeOverrides": [],
