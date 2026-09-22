@@ -5,10 +5,8 @@
   "visibleEdgeTypes": null,
   "nodeOverrides": [],
   "edgeOverrides": [],
-  "focus": null,
-  "focusShow": [
-    "peak:k2"
-  ],
+  "foci": [],
+  "focusShow": [],
   "focusHide": [],
   "skewerGroups": {
     "mountains": {

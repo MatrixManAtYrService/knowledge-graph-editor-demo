@@ -5,7 +5,16 @@
   "visibleEdgeTypes": null,
   "nodeOverrides": [],
   "edgeOverrides": [],
-  "focus": null,
+  "foci": [
+    {
+      "node": "peak:everest",
+      "kHops": 2
+    },
+    {
+      "node": "peak:k2",
+      "kHops": 2
+    }
+  ],
   "focusShow": [
     "peak:k2"
   ],

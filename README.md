@@ -43,8 +43,12 @@ no server, nothing to run.
   copying the address bar shares that exact perspective. Starting from a
   saved view and sharing a modified one works; only layout changes (drags,
   spacing) stay out of the URL.
-- Data loads lazily: the page fetches one graph's `graph.json` up front and
-  pulls an item's full `data` (captions, URLs) only when it's inspected.
+- Data loads lazily: the graphs ship as parquet files queried in the
+  browser by DuckDB-Wasm over HTTP range requests, so a visitor downloads
+  roughly the sliver their view shows (plus the wasm engine itself) — an
+  item's full `data` (captions, URLs) is point-read only when inspected.
+  Overkill for graphs this small, but the same layout carries a 200k-node
+  graph without the visitor ever loading it whole.
 - Share links reference items by their index in the exported files, so
   editing the graph and re-publishing can dangle old links — the accepted
   cost of not maintaining an id registry.
@@ -55,7 +59,15 @@ Save in a locally-served editor rewrites `docs/` (commit it alongside
 
 ```bash
 uv run kge export --out docs
+uv run kge serve --readonly   # check docs/ locally before pushing (needs HTTP
+                              # Range support, which python -m http.server
+                              # lacks; --dir picks a different site directory)
 ```
+
+The exported parquet is also queryable directly — `uv run kge sql
+"SELECT id, key FROM ids WHERE id LIKE 'peak:%'"` runs DuckDB over
+`docs/data/` (bare `nodes`/`edges`/`ids` views for the default graph,
+`xz_backdoor_nodes` etc. for the rest).
 
 ## Graph 1: the xz backdoor
 
