@@ -1,0 +1,189 @@
+{
+  "64": {
+    "date": "1955-05-25",
+    "nation": "United Kingdom",
+    "what": "first ascent of Kangchenjunga"
+  },
+  "65": {
+    "date": "1956-05-18",
+    "nation": "Switzerland",
+    "what": "first ascent of Lhotse"
+  },
+  "66": {
+    "date": "1955-05-15",
+    "nation": "France",
+    "what": "first ascent of Makalu"
+  },
+  "67": {
+    "date": "1956-05-09",
+    "nation": "Japan",
+    "what": "first ascent of Manaslu"
+  },
+  "68": {
+    "date": "1953-07-03",
+    "nation": "Austria",
+    "what": "first ascent of Nanga Parbat"
+  },
+  "69": {
+    "date": "1964-05-02",
+    "nation": "China",
+    "what": "first ascent of Shishapangma"
+  },
+  "70": {
+    "elevation": 8091,
+    "range": "Himalaya",
+    "nation": "Nepal",
+    "date": "1950-06-03",
+    "first_ascent": "Maurice Herzog, Louis Lachenal",
+    "first_ascent_nation": "France",
+    "url": "https://en.wikipedia.org/wiki/Annapurna",
+    "key_event": true,
+    "caption": "The first eight-thousander ever climbed — three years before Everest, without supplemental oxygen. Herzog and Lachenal paid with their fingers and toes."
+  },
+  "71": {
+    "elevation": 8051,
+    "range": "Karakoram",
+    "nation": "Pakistan–China",
+    "date": "1957-06-09",
+    "first_ascent": "Marcus Schmuck, Fritz Wintersteller, Kurt Diemberger, Hermann Buhl",
+    "first_ascent_nation": "Austria",
+    "url": "https://en.wikipedia.org/wiki/Broad_Peak",
+    "key_event": true,
+    "caption": "All four climbers summited without high-altitude porters or bottled oxygen — and Buhl collected his second 8000er first ascent."
+  },
+  "72": {
+    "elevation": 8188,
+    "range": "Himalaya",
+    "nation": "Nepal–China",
+    "date": "1954-10-19",
+    "first_ascent": "Herbert Tichy, Joseph Jöchler, Pasang Dawa Lama",
+    "first_ascent_nation": "Austria",
+    "url": "https://en.wikipedia.org/wiki/Cho_Oyu"
+  },
+  "73": {
+    "elevation": 7665,
+    "range": "Karakoram",
+    "nation": "Pakistan",
+    "date": "1975-08-02",
+    "first_ascent": "Fred Pressl, Gustav Ammerer",
+    "first_ascent_nation": "Austria",
+    "url": "https://en.wikipedia.org/wiki/Chogolisa",
+    "key_event": true,
+    "caption": "Buhl's last mountain: the 1957 attempt ended with his death (see the timeline). The main summit finally fell to an Austrian pair in 1975 — the lower northeast summit had gone to a Japanese team in 1958."
+  },
+  "74": {
+    "elevation": 8167,
+    "range": "Himalaya",
+    "nation": "Nepal",
+    "date": "1960-05-13",
+    "first_ascent": "Kurt Diemberger, Peter Diener, Ernst Forrer, Albin Schelbert, Nawang Dorje, Nyima Dorje",
+    "first_ascent_nation": "Switzerland",
+    "url": "https://en.wikipedia.org/wiki/Dhaulagiri",
+    "key_event": true,
+    "caption": "The Swiss flew a glacier plane onto the mountain to stock the camps; Diemberger joined Buhl in the two-first-ascents club."
+  },
+  "75": {
+    "elevation": 8849,
+    "range": "Himalaya",
+    "nation": "Nepal–China",
+    "date": "1953-05-29",
+    "first_ascent": "Edmund Hillary, Tenzing Norgay",
+    "first_ascent_nation": "United Kingdom",
+    "url": "https://en.wikipedia.org/wiki/Mount_Everest",
+    "key_event": true,
+    "caption": "A British expedition put a New Zealander and a Sherpa on top; London got the news on coronation morning."
+  },
+  "76": {
+    "elevation": 8080,
+    "range": "Karakoram",
+    "nation": "Pakistan–China",
+    "date": "1958-07-05",
+    "first_ascent": "Pete Schoening, Andy Kauffman",
+    "first_ascent_nation": "United States",
+    "url": "https://en.wikipedia.org/wiki/Gasherbrum_I",
+    "key_event": true,
+    "caption": "The only 8000er whose first ascent went to an American expedition."
+  },
+  "77": {
+    "elevation": 8035,
+    "range": "Karakoram",
+    "nation": "Pakistan–China",
+    "date": "1956-07-07",
+    "first_ascent": "Fritz Moravec, Josef Larch, Hans Willenpart",
+    "first_ascent_nation": "Austria",
+    "url": "https://en.wikipedia.org/wiki/Gasherbrum_II"
+  },
+  "78": {
+    "elevation": 8611,
+    "range": "Karakoram",
+    "nation": "Pakistan–China",
+    "date": "1954-07-31",
+    "first_ascent": "Achille Compagnoni, Lino Lacedelli",
+    "first_ascent_nation": "Italy",
+    "url": "https://en.wikipedia.org/wiki/K2",
+    "key_event": true,
+    "caption": "Compagnoni and Lacedelli summited; Walter Bonatti's overnight oxygen carry made it possible and stayed bitterly disputed for fifty years."
+  },
+  "79": {
+    "elevation": 8586,
+    "range": "Himalaya",
+    "nation": "Nepal–India",
+    "date": "1955-05-25",
+    "first_ascent": "George Band, Joe Brown",
+    "first_ascent_nation": "United Kingdom",
+    "url": "https://en.wikipedia.org/wiki/Kangchenjunga",
+    "key_event": true,
+    "caption": "Band and Brown stopped a few steps below the top, keeping a promise to Sikkim that the summit itself stay untrodden. Every ascent since has honored it."
+  },
+  "80": {
+    "elevation": 8516,
+    "range": "Himalaya",
+    "nation": "Nepal–China",
+    "date": "1956-05-18",
+    "first_ascent": "Fritz Luchsinger, Ernst Reiss",
+    "first_ascent_nation": "Switzerland",
+    "url": "https://en.wikipedia.org/wiki/Lhotse"
+  },
+  "81": {
+    "elevation": 8485,
+    "range": "Himalaya",
+    "nation": "Nepal–China",
+    "date": "1955-05-15",
+    "first_ascent": "Jean Couzy, Lionel Terray",
+    "first_ascent_nation": "France",
+    "url": "https://en.wikipedia.org/wiki/Makalu",
+    "key_event": true,
+    "caption": "All nine expedition members and sirdar Gyalzen Norbu summited over three days — the first 8000er first ascent to put the whole team on top."
+  },
+  "82": {
+    "elevation": 8163,
+    "range": "Himalaya",
+    "nation": "Nepal",
+    "date": "1956-05-09",
+    "first_ascent": "Toshio Imanishi, Gyalzen Norbu",
+    "first_ascent_nation": "Japan",
+    "url": "https://en.wikipedia.org/wiki/Manaslu"
+  },
+  "83": {
+    "elevation": 8126,
+    "range": "Himalaya",
+    "nation": "Pakistan",
+    "date": "1953-07-03",
+    "first_ascent": "Hermann Buhl",
+    "first_ascent_nation": "Austria",
+    "url": "https://en.wikipedia.org/wiki/Nanga_Parbat",
+    "key_event": true,
+    "caption": "Buhl reached the summit alone — no oxygen, no partner, 41 hours up and down with a standing bivouac. The only solo first ascent of an 8000er. (The expedition was German-led; the summiter was Austrian.)"
+  },
+  "84": {
+    "elevation": 8027,
+    "range": "Himalaya",
+    "nation": "China",
+    "date": "1964-05-02",
+    "first_ascent": "Xu Jing and nine others",
+    "first_ascent_nation": "China",
+    "url": "https://en.wikipedia.org/wiki/Shishapangma",
+    "key_event": true,
+    "caption": "The last 8000er climbed — it stands entirely inside Tibet, closed to foreign expeditions, so the Chinese team had the mountain, and the era's final first, to themselves."
+  }
+}

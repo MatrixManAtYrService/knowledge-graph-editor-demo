@@ -1,0 +1,18 @@
+{
+  "graphs": [
+    {
+      "id": "first-ascents",
+      "nodes": 92,
+      "edges": 146,
+      "views": 2,
+      "default": true
+    },
+    {
+      "id": "xz-backdoor",
+      "nodes": 60,
+      "edges": 61,
+      "views": 1,
+      "default": false
+    }
+  ]
+}

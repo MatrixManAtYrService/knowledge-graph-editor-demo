@@ -1,0 +1,38 @@
+{
+  "0": {
+    "note": "https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1067708"
+  },
+  "1": {
+    "note": "https://tracker.debian.org/news/1506761/accepted-xz-utils-560-01-source-into-unstable/"
+  },
+  "2": {
+    "note": "https://tracker.debian.org/news/1515519/accepted-xz-utils-561really545-1-source-into-unstable/"
+  },
+  "3": {
+    "note": "https://bugs.gentoo.org/925415"
+  },
+  "4": {
+    "note": "https://bugzilla.redhat.com/show_bug.cgi?id=2267598"
+  },
+  "5": {
+    "note": "https://bugs.launchpad.net/ubuntu/+source/xz-utils/+bug/2059417"
+  },
+  "6": {
+    "note": "distro tracker"
+  },
+  "7": {
+    "note": "distro tracker"
+  },
+  "8": {
+    "note": "distro tracker"
+  },
+  "9": {
+    "note": "distro tracker"
+  },
+  "10": {
+    "note": "github api"
+  },
+  "11": {
+    "note": "git tag v5.4.1"
+  }
+}

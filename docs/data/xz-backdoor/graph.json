@@ -1,0 +1,1279 @@
+{
+  "schema": {
+    "nodeTypes": {
+      "commit": {
+        "color": "#5b7fa6",
+        "description": "A git commit (story-bearing; routine ones are folded)",
+        "family": "code"
+      },
+      "release": {
+        "color": "#e8b931",
+        "description": "An xz release tag",
+        "family": "code"
+      },
+      "pull-request": {
+        "color": "#b07aa1",
+        "description": "A GitHub pull request",
+        "family": "code"
+      },
+      "post": {
+        "color": "#76b7b2",
+        "description": "A mailing-list message (linked and summarized, not copied)",
+        "family": "social"
+      },
+      "bug-report": {
+        "color": "#f28e2c",
+        "description": "A distro bug-tracker item",
+        "family": "distro"
+      },
+      "distro": {
+        "color": "#59a14f",
+        "description": "A Linux distribution",
+        "family": "distro"
+      },
+      "skewer": {
+        "color": "#9aa0a6",
+        "description": "An ordered colinearity group (layout intent, interpreted by the view)",
+        "family": "layout"
+      }
+    },
+    "edgeTypes": {
+      "MERGED_AS": {
+        "color": "#8f6bb8",
+        "description": "Pull request landed as this commit",
+        "family": "code"
+      },
+      "TAGGED_AT": {
+        "color": "#e8b931",
+        "description": "Release tag points at this commit",
+        "family": "code"
+      },
+      "CONCERNS": {
+        "color": "#c58a3b",
+        "description": "Bug report is about this release",
+        "family": "distro"
+      },
+      "SHIPPED": {
+        "color": "#59a14f",
+        "description": "Distro shipped this release",
+        "family": "distro"
+      },
+      "skewer-order": {
+        "color": "#c9cdd2",
+        "description": "Skewer membership; data.index gives the order along the skewer",
+        "family": "layout"
+      }
+    },
+    "colorKey": "actor",
+    "colorValues": {
+      "Jia Tan": "#e15759",
+      "Lasse Collin": "#4e79a7",
+      "Hans Jansen": "#f28e2c",
+      "Jigar Kumar": "#edc949",
+      "Dennis Ens": "#af7aa1",
+      "Andres Freund": "#59a14f",
+      "Ed Maste": "#76b7b2",
+      "Matteo Croce": "#9c755f"
+    }
+  },
+  "nodes": [
+    {
+      "id": "bug:debian-1067708",
+      "type": "bug-report",
+      "label": "Debian bug 1067708",
+      "data": {
+        "date": "2024-03-25",
+        "actor": "Hans Jansen"
+      }
+    },
+    {
+      "id": "bug:debian-accept-5.6.0",
+      "type": "bug-report",
+      "label": "Debian accepts 5.6.0-0.1",
+      "data": {
+        "date": "2024-02-26"
+      }
+    },
+    {
+      "id": "bug:debian-rollback",
+      "type": "bug-report",
+      "label": "Debian rollback (5.6.1+really5.4.5)",
+      "data": {
+        "date": "2024-03-28"
+      }
+    },
+    {
+      "id": "bug:gentoo-925415",
+      "type": "bug-report",
+      "label": "Gentoo bug 925415",
+      "data": {
+        "date": "2024-02-24"
+      }
+    },
+    {
+      "id": "bug:redhat-2267598",
+      "type": "bug-report",
+      "label": "Red Hat bug 2267598",
+      "data": {
+        "date": "2024-03-04"
+      }
+    },
+    {
+      "id": "bug:ubuntu-2059417",
+      "type": "bug-report",
+      "label": "Ubuntu bug 2059417",
+      "data": {
+        "date": "2024-03-28",
+        "actor": "Jia Tan"
+      }
+    },
+    {
+      "id": "commit:oss-fuzz:6403e93",
+      "type": "commit",
+      "label": "XZ updates (#9960)",
+      "data": {
+        "date": "2023-03-20",
+        "actor": "Jia Tan"
+      }
+    },
+    {
+      "id": "commit:oss-fuzz:d2e42b2",
+      "type": "commit",
+      "label": "xz: Disable ifunc to fix Issue 60259. (#1066",
+      "data": {
+        "date": "2023-07-07",
+        "actor": "Jia Tan"
+      }
+    },
+    {
+      "id": "commit:systemd:3fc72d5",
+      "type": "commit",
+      "label": "Dynamically load compression libraries",
+      "data": {
+        "date": "2024-03-05",
+        "actor": "Matteo Croce"
+      }
+    },
+    {
+      "id": "commit:xz-java:52fcb4a",
+      "type": "commit",
+      "label": "Removes unused imports flagged by text edito",
+      "data": {
+        "date": "2022-12-09",
+        "actor": "Jia Tan"
+      }
+    },
+    {
+      "id": "commit:xz-java:67d9763",
+      "type": "commit",
+      "label": "Update docs and metadata for new project web",
+      "data": {
+        "date": "2024-01-19",
+        "actor": "Jia Tan"
+      }
+    },
+    {
+      "id": "commit:xz-java:8e46fdf",
+      "type": "commit",
+      "label": "Implements ARM64 filter described in xz spec",
+      "data": {
+        "date": "2022-12-17",
+        "actor": "Jia Tan"
+      }
+    },
+    {
+      "id": "commit:xz:0c210ca",
+      "type": "commit",
+      "label": "Tests: test_filter_flags: Clean up minor iss",
+      "data": {
+        "date": "2023-01-09",
+        "actor": "Lasse Collin"
+      }
+    },
+    {
+      "id": "commit:xz:1107712",
+      "type": "commit",
+      "label": "Remove the backdoor found in 5.6.0 and 5.6.1",
+      "data": {
+        "date": "2024-04-09",
+        "actor": "Lasse Collin"
+      }
+    },
+    {
+      "id": "commit:xz:18b845e",
+      "type": "commit",
+      "label": "Bump version and soname for 5.4.1.",
+      "data": {
+        "date": "2023-01-11",
+        "actor": "Lasse Collin"
+      }
+    },
+    {
+      "id": "commit:xz:233885a",
+      "type": "commit",
+      "label": "liblzma: Rename crc_macros.h to crc_common.h",
+      "data": {
+        "date": "2023-10-13",
+        "actor": "Hans Jansen"
+      }
+    },
+    {
+      "id": "commit:xz:23b5c36",
+      "type": "commit",
+      "label": "Add ifunc check to configure.ac",
+      "data": {
+        "date": "2023-06-27",
+        "actor": "Hans Jansen"
+      }
+    },
+    {
+      "id": "commit:xz:6468f7e",
+      "type": "commit",
+      "label": "liblzma: Add NULL checks to LZMA and LZMA2 p",
+      "data": {
+        "date": "2022-02-07",
+        "actor": "Jia Tan"
+      }
+    },
+    {
+      "id": "commit:xz:74b138d",
+      "type": "commit",
+      "label": "Tests: Update two test files.",
+      "data": {
+        "date": "2024-03-09",
+        "actor": "Jia Tan"
+      }
+    },
+    {
+      "id": "commit:xz:93e6fb0",
+      "type": "commit",
+      "label": "liblzma: Moved CLMUL CRC logic to crc_common",
+      "data": {
+        "date": "2023-10-13",
+        "actor": "Hans Jansen"
+      }
+    },
+    {
+      "id": "commit:xz:a100f91",
+      "type": "commit",
+      "label": "Build: Fix Linux Landlock feature test in Au",
+      "data": {
+        "date": "2024-02-28",
+        "actor": "Jia Tan"
+      }
+    },
+    {
+      "id": "commit:xz:b72d212",
+      "type": "commit",
+      "label": "Add ifunc check to CMakeLists.txt",
+      "data": {
+        "date": "2023-06-27",
+        "actor": "Hans Jansen"
+      }
+    },
+    {
+      "id": "commit:xz:cf44e4b",
+      "type": "commit",
+      "label": "Tests: Add a few test files.",
+      "data": {
+        "date": "2024-02-23",
+        "actor": "Jia Tan"
+      }
+    },
+    {
+      "id": "commit:xz:f1cd9d7",
+      "type": "commit",
+      "label": "liblzma: Added crc32_clmul to crc32_fast.c.",
+      "data": {
+        "date": "2023-10-13",
+        "actor": "Hans Jansen"
+      }
+    },
+    {
+      "id": "distro:debian",
+      "type": "distro",
+      "label": "Debian",
+      "data": {}
+    },
+    {
+      "id": "distro:fedora",
+      "type": "distro",
+      "label": "Fedora / Red Hat",
+      "data": {}
+    },
+    {
+      "id": "distro:gentoo",
+      "type": "distro",
+      "label": "Gentoo",
+      "data": {}
+    },
+    {
+      "id": "post:msg00512",
+      "type": "post",
+      "label": "Jia Tan's first appearance on xz-devel: a pa",
+      "data": {
+        "date": "2021-10-29",
+        "actor": "Jia Tan"
+      }
+    },
+    {
+      "id": "post:msg00557",
+      "type": "post",
+      "label": "First complaint that Jia's patch isn't landi",
+      "data": {
+        "date": "2022-04-22",
+        "actor": "Jigar Kumar"
+      }
+    },
+    {
+      "id": "post:msg00562",
+      "type": "post",
+      "label": "Asks whether XZ for Java is maintained.",
+      "data": {
+        "date": "2022-05-19",
+        "actor": "Dennis Ens"
+      }
+    },
+    {
+      "id": "post:msg00563",
+      "type": "post",
+      "label": "Collin first hints Jia Tan may take a bigger",
+      "data": {
+        "date": "2022-05-19",
+        "actor": "Lasse Collin"
+      }
+    },
+    {
+      "id": "post:msg00565",
+      "type": "post",
+      "label": "Complains a patch is still unmerged.",
+      "data": {
+        "date": "2022-05-27",
+        "actor": "Jigar Kumar"
+      }
+    },
+    {
+      "id": "post:msg00566",
+      "type": "post",
+      "label": "Says nothing will change until there is a ne",
+      "data": {
+        "date": "2022-06-07",
+        "actor": "Jigar Kumar"
+      }
+    },
+    {
+      "id": "post:msg00567",
+      "type": "post",
+      "label": "Collin pushes back, citing limited capacity ",
+      "data": {
+        "date": "2022-06-08",
+        "actor": "Lasse Collin"
+      }
+    },
+    {
+      "id": "post:msg00568",
+      "type": "post",
+      "label": "Says the maintainer is choking his own repo.",
+      "data": {
+        "date": "2022-06-14",
+        "actor": "Jigar Kumar"
+      }
+    },
+    {
+      "id": "post:msg00569",
+      "type": "post",
+      "label": "Urges Collin to hand off maintainership.",
+      "data": {
+        "date": "2022-06-21",
+        "actor": "Dennis Ens"
+      }
+    },
+    {
+      "id": "post:msg00570",
+      "type": "post",
+      "label": "Asks why Jia doesn't commit it himself.",
+      "data": {
+        "date": "2022-06-22",
+        "actor": "Jigar Kumar"
+      }
+    },
+    {
+      "id": "post:msg00571",
+      "type": "post",
+      "label": "Collin: Jia Tan is now practically a co-main",
+      "data": {
+        "date": "2022-06-29",
+        "actor": "Lasse Collin"
+      }
+    },
+    {
+      "id": "post:oss-security-disclosure",
+      "type": "post",
+      "label": "Andres Freund's public disclosure: a 500ms s",
+      "data": {
+        "date": "2024-03-29",
+        "actor": "Andres Freund"
+      }
+    },
+    {
+      "id": "pr:libarchive:1598",
+      "type": "pull-request",
+      "label": "libarchive PR #1598",
+      "data": {
+        "date": "2021-10-19",
+        "actor": "Jia Tan"
+      }
+    },
+    {
+      "id": "pr:libarchive:1609",
+      "type": "pull-request",
+      "label": "libarchive PR #1609",
+      "data": {
+        "date": "2021-11-02",
+        "actor": "Jia Tan"
+      }
+    },
+    {
+      "id": "pr:libarchive:2101",
+      "type": "pull-request",
+      "label": "libarchive PR #2101",
+      "data": {
+        "date": "2024-03-29",
+        "actor": "Ed Maste"
+      }
+    },
+    {
+      "id": "pr:systemd:31550",
+      "type": "pull-request",
+      "label": "systemd PR #31550",
+      "data": {
+        "date": "2024-02-29",
+        "actor": "Matteo Croce"
+      }
+    },
+    {
+      "id": "release:5.4.0",
+      "type": "release",
+      "label": "v5.4.0",
+      "data": {
+        "date": "2022-12-13",
+        "actor": "Lasse Collin"
+      }
+    },
+    {
+      "id": "release:5.4.1",
+      "type": "release",
+      "label": "v5.4.1",
+      "data": {
+        "date": "2023-01-11",
+        "actor": "Lasse Collin"
+      }
+    },
+    {
+      "id": "release:5.4.2",
+      "type": "release",
+      "label": "v5.4.2",
+      "data": {
+        "date": "2023-03-18",
+        "actor": "Jia Tan"
+      }
+    },
+    {
+      "id": "release:5.4.3",
+      "type": "release",
+      "label": "v5.4.3",
+      "data": {
+        "date": "2023-05-04",
+        "actor": "Jia Tan"
+      }
+    },
+    {
+      "id": "release:5.4.4",
+      "type": "release",
+      "label": "v5.4.4",
+      "data": {
+        "date": "2023-08-02",
+        "actor": "Jia Tan"
+      }
+    },
+    {
+      "id": "release:5.4.5",
+      "type": "release",
+      "label": "v5.4.5",
+      "data": {
+        "date": "2023-11-01",
+        "actor": "Jia Tan"
+      }
+    },
+    {
+      "id": "release:5.4.6",
+      "type": "release",
+      "label": "v5.4.6",
+      "data": {
+        "date": "2024-01-26",
+        "actor": "Jia Tan"
+      }
+    },
+    {
+      "id": "release:5.6.0",
+      "type": "release",
+      "label": "v5.6.0",
+      "data": {
+        "date": "2024-02-24",
+        "actor": "Jia Tan"
+      }
+    },
+    {
+      "id": "release:5.6.1",
+      "type": "release",
+      "label": "v5.6.1",
+      "data": {
+        "date": "2024-03-09",
+        "actor": "Jia Tan"
+      }
+    },
+    {
+      "id": "skewer:endgame",
+      "type": "skewer",
+      "label": "the endgame",
+      "data": {
+        "description": "Feb-Mar 2024: push the backdoored releases into distros — then a 500ms delay ends everything.",
+        "orderKey": "date"
+      }
+    },
+    {
+      "id": "skewer:libarchive",
+      "type": "skewer",
+      "label": "libarchive repo",
+      "data": {
+        "description": "Jia Tan's pre-xz contribution history — and the post-disclosure re-audit of it.",
+        "orderKey": "date"
+      }
+    },
+    {
+      "id": "skewer:oss-fuzz",
+      "type": "skewer",
+      "label": "google/oss-fuzz repo",
+      "data": {
+        "description": "Two commits that kept the fuzzers from noticing anything.",
+        "orderKey": "date"
+      }
+    },
+    {
+      "id": "skewer:releases",
+      "type": "skewer",
+      "label": "xz releases",
+      "data": {
+        "description": "The release line. Watch the tagger change hands at 5.4.2 — and which two are backdoored.",
+        "orderKey": "date"
+      }
+    },
+    {
+      "id": "skewer:systemd",
+      "type": "skewer",
+      "label": "systemd repo",
+      "data": {
+        "description": "The dependency cleanup that likely forced the attacker's timetable.",
+        "orderKey": "date"
+      }
+    },
+    {
+      "id": "skewer:xz-devel",
+      "type": "skewer",
+      "label": "xz-devel mailing list",
+      "data": {
+        "description": "From Jia Tan's first hello to Collin conceding co-maintainership: the social-engineering campaign, in order.",
+        "orderKey": "date"
+      }
+    },
+    {
+      "id": "skewer:xz-java",
+      "type": "skewer",
+      "label": "xz-java repo",
+      "data": {
+        "description": "Jia Tan's commits to XZ for Java — the repo Dennis Ens's pressure was ostensibly about.",
+        "orderKey": "date"
+      }
+    },
+    {
+      "id": "skewer:xz-repo",
+      "type": "skewer",
+      "label": "xz repo (curated)",
+      "data": {
+        "description": "Story-bearing commits from tukaani-project/xz, by commit date. The window 2021-10..2024-04 has 1115 first-parent commits (445 authored by Jia Tan); routine ones are folded away.",
+        "orderKey": "date"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "type": "CONCERNS",
+      "from": "bug:debian-1067708",
+      "to": "release:5.6.1",
+      "data": {}
+    },
+    {
+      "type": "CONCERNS",
+      "from": "bug:debian-accept-5.6.0",
+      "to": "release:5.6.0",
+      "data": {}
+    },
+    {
+      "type": "CONCERNS",
+      "from": "bug:debian-rollback",
+      "to": "release:5.6.1",
+      "data": {}
+    },
+    {
+      "type": "CONCERNS",
+      "from": "bug:gentoo-925415",
+      "to": "release:5.6.0",
+      "data": {}
+    },
+    {
+      "type": "CONCERNS",
+      "from": "bug:redhat-2267598",
+      "to": "release:5.6.0",
+      "data": {}
+    },
+    {
+      "type": "CONCERNS",
+      "from": "bug:ubuntu-2059417",
+      "to": "release:5.6.1",
+      "data": {}
+    },
+    {
+      "type": "SHIPPED",
+      "from": "distro:debian",
+      "to": "release:5.6.0",
+      "data": {}
+    },
+    {
+      "type": "SHIPPED",
+      "from": "distro:debian",
+      "to": "release:5.6.1",
+      "data": {}
+    },
+    {
+      "type": "SHIPPED",
+      "from": "distro:fedora",
+      "to": "release:5.6.0",
+      "data": {}
+    },
+    {
+      "type": "SHIPPED",
+      "from": "distro:gentoo",
+      "to": "release:5.6.0",
+      "data": {}
+    },
+    {
+      "type": "MERGED_AS",
+      "from": "pr:systemd:31550",
+      "to": "commit:systemd:3fc72d5",
+      "data": {}
+    },
+    {
+      "type": "TAGGED_AT",
+      "from": "release:5.4.1",
+      "to": "commit:xz:18b845e",
+      "data": {}
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:endgame",
+      "to": "bug:debian-1067708",
+      "data": {
+        "index": 3
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:endgame",
+      "to": "bug:debian-accept-5.6.0",
+      "data": {
+        "index": 1
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:endgame",
+      "to": "bug:debian-rollback",
+      "data": {
+        "index": 5
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:endgame",
+      "to": "bug:gentoo-925415",
+      "data": {
+        "index": 0
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:endgame",
+      "to": "bug:redhat-2267598",
+      "data": {
+        "index": 2
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:endgame",
+      "to": "bug:ubuntu-2059417",
+      "data": {
+        "index": 4
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:endgame",
+      "to": "post:oss-security-disclosure",
+      "data": {
+        "index": 6
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:libarchive",
+      "to": "pr:libarchive:1598",
+      "data": {
+        "index": 0
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:libarchive",
+      "to": "pr:libarchive:1609",
+      "data": {
+        "index": 1
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:libarchive",
+      "to": "pr:libarchive:2101",
+      "data": {
+        "index": 2
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:oss-fuzz",
+      "to": "commit:oss-fuzz:6403e93",
+      "data": {
+        "index": 0
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:oss-fuzz",
+      "to": "commit:oss-fuzz:d2e42b2",
+      "data": {
+        "index": 1
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:releases",
+      "to": "release:5.4.0",
+      "data": {
+        "index": 0
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:releases",
+      "to": "release:5.4.1",
+      "data": {
+        "index": 1
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:releases",
+      "to": "release:5.4.2",
+      "data": {
+        "index": 2
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:releases",
+      "to": "release:5.4.3",
+      "data": {
+        "index": 3
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:releases",
+      "to": "release:5.4.4",
+      "data": {
+        "index": 4
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:releases",
+      "to": "release:5.4.5",
+      "data": {
+        "index": 5
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:releases",
+      "to": "release:5.4.6",
+      "data": {
+        "index": 6
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:releases",
+      "to": "release:5.6.0",
+      "data": {
+        "index": 7
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:releases",
+      "to": "release:5.6.1",
+      "data": {
+        "index": 8
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:systemd",
+      "to": "commit:systemd:3fc72d5",
+      "data": {
+        "index": 1
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:systemd",
+      "to": "pr:systemd:31550",
+      "data": {
+        "index": 0
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-devel",
+      "to": "post:msg00512",
+      "data": {
+        "index": 0
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-devel",
+      "to": "post:msg00557",
+      "data": {
+        "index": 1
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-devel",
+      "to": "post:msg00562",
+      "data": {
+        "index": 2
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-devel",
+      "to": "post:msg00563",
+      "data": {
+        "index": 3
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-devel",
+      "to": "post:msg00565",
+      "data": {
+        "index": 4
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-devel",
+      "to": "post:msg00566",
+      "data": {
+        "index": 5
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-devel",
+      "to": "post:msg00567",
+      "data": {
+        "index": 6
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-devel",
+      "to": "post:msg00568",
+      "data": {
+        "index": 7
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-devel",
+      "to": "post:msg00569",
+      "data": {
+        "index": 8
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-devel",
+      "to": "post:msg00570",
+      "data": {
+        "index": 9
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-devel",
+      "to": "post:msg00571",
+      "data": {
+        "index": 10
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-java",
+      "to": "commit:xz-java:52fcb4a",
+      "data": {
+        "index": 0
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-java",
+      "to": "commit:xz-java:67d9763",
+      "data": {
+        "index": 2
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-java",
+      "to": "commit:xz-java:8e46fdf",
+      "data": {
+        "index": 1
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-repo",
+      "to": "commit:xz:0c210ca",
+      "data": {
+        "index": 1
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-repo",
+      "to": "commit:xz:1107712",
+      "data": {
+        "index": 11
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-repo",
+      "to": "commit:xz:18b845e",
+      "data": {
+        "index": 2
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-repo",
+      "to": "commit:xz:233885a",
+      "data": {
+        "index": 5
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-repo",
+      "to": "commit:xz:23b5c36",
+      "data": {
+        "index": 3
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-repo",
+      "to": "commit:xz:6468f7e",
+      "data": {
+        "index": 0
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-repo",
+      "to": "commit:xz:74b138d",
+      "data": {
+        "index": 10
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-repo",
+      "to": "commit:xz:93e6fb0",
+      "data": {
+        "index": 6
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-repo",
+      "to": "commit:xz:a100f91",
+      "data": {
+        "index": 9
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-repo",
+      "to": "commit:xz:b72d212",
+      "data": {
+        "index": 4
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-repo",
+      "to": "commit:xz:cf44e4b",
+      "data": {
+        "index": 8
+      }
+    },
+    {
+      "type": "skewer-order",
+      "from": "skewer:xz-repo",
+      "to": "commit:xz:f1cd9d7",
+      "data": {
+        "index": 7
+      }
+    }
+  ],
+  "views": [
+    {
+      "id": "default",
+      "name": "Default",
+      "visibleNodeTypes": null,
+      "visibleEdgeTypes": null,
+      "nodeOverrides": [],
+      "edgeOverrides": [],
+      "foci": [],
+      "focusShow": [],
+      "focusHide": [],
+      "skewerGroups": {
+        "date": {
+          "align": true,
+          "grouped": false,
+          "axis": null
+        }
+      },
+      "layout": {
+        "engine": "fcose",
+        "seedPositions": {
+          "distro:debian": {
+            "x": -152.15945506604518,
+            "y": 82.28719761497481
+          },
+          "distro:fedora": {
+            "x": -145.9409676823955,
+            "y": -58.817855561930756
+          },
+          "distro:gentoo": {
+            "x": -145.24063442093058,
+            "y": -159.45574079052224
+          }
+        },
+        "pinned": [],
+        "skewers": {
+          "skewer:endgame": {
+            "a": {
+              "x": 11.699000805890826,
+              "y": -1941.8837884482564
+            },
+            "b": {
+              "x": 66.51272320965901,
+              "y": 676.2980297335972
+            },
+            "pinned": false
+          },
+          "skewer:releases": {
+            "a": {
+              "x": -105.32173212291946,
+              "y": -1939.4338661679544
+            },
+            "b": {
+              "x": -50.508009719151275,
+              "y": 678.7479520138992
+            },
+            "pinned": false
+          },
+          "skewer:libarchive": {
+            "a": {
+              "x": -272.4267008472065,
+              "y": -1935.935390506587
+            },
+            "b": {
+              "x": -217.61297844343832,
+              "y": 682.2464276752664
+            },
+            "pinned": false
+          },
+          "skewer:oss-fuzz": {
+            "a": {
+              "x": 374.5731086243625,
+              "y": -1949.4808470159037
+            },
+            "b": {
+              "x": 429.3868310281307,
+              "y": 668.7009711659499
+            },
+            "pinned": false
+          },
+          "skewer:systemd": {
+            "a": {
+              "x": -404.92531580751876,
+              "y": -1933.161426433931
+            },
+            "b": {
+              "x": -350.1115934037506,
+              "y": 685.0203917479228
+            },
+            "pinned": false
+          },
+          "skewer:xz-devel": {
+            "a": {
+              "x": -532.3855056180488,
+              "y": -1930.4929458061579
+            },
+            "b": {
+              "x": -477.5717832142806,
+              "y": 687.6888723756958
+            },
+            "pinned": false
+          },
+          "skewer:xz-java": {
+            "a": {
+              "x": 254.59939843754032,
+              "y": -1946.9691018039164
+            },
+            "b": {
+              "x": 309.4131208413085,
+              "y": 671.2127163779373
+            },
+            "pinned": false
+          },
+          "skewer:xz-repo": {
+            "a": {
+              "x": 144.8678766253963,
+              "y": -1944.671784966031
+            },
+            "b": {
+              "x": 199.6815990291645,
+              "y": 673.5100332158224
+            },
+            "pinned": false
+          }
+        },
+        "memberFracs": {
+          "skewer:endgame": {
+            "bug:gentoo-925415": 0.6833333333333333,
+            "bug:debian-accept-5.6.0": 0.72,
+            "bug:redhat-2267598": 0.7749999999999999,
+            "bug:debian-1067708": 0.8483333333333334,
+            "bug:ubuntu-2059417": 0.885,
+            "bug:debian-rollback": 0.8666666666666667,
+            "post:oss-security-disclosure": 0.9033333333333333
+          },
+          "skewer:libarchive": {
+            "pr:libarchive:1598": 0.06,
+            "pr:libarchive:1609": 0.09666666666666666,
+            "pr:libarchive:2101": 0.9216666666666666
+          },
+          "skewer:oss-fuzz": {
+            "commit:oss-fuzz:6403e93": 0.445,
+            "commit:oss-fuzz:d2e42b2": 0.5183333333333333
+          },
+          "skewer:releases": {
+            "release:5.4.0": 0.335,
+            "release:5.4.1": 0.4083333333333333,
+            "release:5.4.2": 0.4266666666666667,
+            "release:5.4.3": 0.4633333333333333,
+            "release:5.4.4": 0.5366666666666666,
+            "release:5.4.5": 0.6100000000000001,
+            "release:5.4.6": 0.6466666666666667,
+            "release:5.6.0": 0.7016666666666667,
+            "release:5.6.1": 0.8300000000000001
+          },
+          "skewer:systemd": {
+            "pr:systemd:31550": 0.7566666666666666,
+            "commit:systemd:3fc72d5": 0.7933333333333334
+          },
+          "skewer:xz-devel": {
+            "post:msg00512": 0.07833333333333334,
+            "post:msg00557": 0.13333333333333333,
+            "post:msg00562": 0.15166666666666667,
+            "post:msg00563": 0.16999999999999998,
+            "post:msg00565": 0.18833333333333335,
+            "post:msg00566": 0.20666666666666667,
+            "post:msg00567": 0.225,
+            "post:msg00568": 0.24333333333333335,
+            "post:msg00569": 0.26166666666666666,
+            "post:msg00570": 0.28,
+            "post:msg00571": 0.29833333333333334
+          },
+          "skewer:xz-java": {
+            "commit:xz-java:52fcb4a": 0.3166666666666667,
+            "commit:xz-java:8e46fdf": 0.35333333333333333,
+            "commit:xz-java:67d9763": 0.6283333333333334
+          },
+          "skewer:xz-repo": {
+            "commit:xz:6468f7e": 0.11499999999999999,
+            "commit:xz:0c210ca": 0.3716666666666667,
+            "commit:xz:18b845e": 0.39,
+            "commit:xz:23b5c36": 0.4816666666666667,
+            "commit:xz:b72d212": 0.5,
+            "commit:xz:233885a": 0.5549999999999999,
+            "commit:xz:93e6fb0": 0.5733333333333335,
+            "commit:xz:f1cd9d7": 0.5916666666666666,
+            "commit:xz:cf44e4b": 0.665,
+            "commit:xz:a100f91": 0.7383333333333333,
+            "commit:xz:74b138d": 0.8116666666666665,
+            "commit:xz:1107712": 0.94
+          }
+        },
+        "rules": []
+      }
+    }
+  ],
+  "detail": {
+    "shardSize": 64,
+    "nodeShards": [
+      0
+    ],
+    "edgeShards": [
+      0
+    ]
+  }
+}
